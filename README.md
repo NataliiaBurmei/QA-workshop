@@ -2,9 +2,6 @@
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**
 
-- [QA-workshop](#markdown-header-qa-workshop)
-        - [Objectives](#markdown-header-objectives)
-        - 
 ### Getting started
 
 ### Simple SBT project
