@@ -4,7 +4,7 @@
 Table of Contents
 =================
 
-* [Getting started] (#Getting started)
+* [Getting started] (#https://github.com/NataliiaBurmei/QA-workshop/wiki/Getting-started)
 
 * Simple SBT project
 
