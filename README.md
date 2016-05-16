@@ -1,21 +1,23 @@
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Table of Contents**
 
-### Getting started
+Table of Contents
+=================
 
-### Simple SBT project
+* [Getting started] (#Getting started)
 
-### Dropdown and list
+* Simple SBT project
 
-### Several tests using Selenium and Scalatest
+* Dropdown and list
 
-### Functional BDD style tests
+* Several tests using Selenium and Scalatest
 
-### Page Object pattern
+* Functional BDD style tests
 
-### Git and GitHub
+* Page Object pattern
 
-### TDD tests - a bonus
+* Git and GitHub
+
+* TDD tests - a bonus
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
