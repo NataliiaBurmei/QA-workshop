@@ -1,3 +1,4 @@
+target
 *.class
 *.log
 
@@ -7,10 +8,17 @@
 .lib/
 dist/*
 target/
+.idea
+*.iml
+*.ipr
+*.iws
+out
 lib_managed/
 src_managed/
 project/boot/
 project/plugins/project/
+.cache/
+.history/
 
 # Scala-IDE specific
 .scala_dependencies
