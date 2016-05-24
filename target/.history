@@ -1,0 +1,8 @@
+test
+test:only
+test-only com.gumtree.search.PageTitleSpec
+reload
+update
+test-only com.gumtree.search.SofaSearchSpec
+test-only com.gumtree.search.SearchFlatSpec
+exit
