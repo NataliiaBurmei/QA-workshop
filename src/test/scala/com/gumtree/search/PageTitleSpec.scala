@@ -1,13 +1,13 @@
 package com.gumtree.search
 
 import org.openqa.selenium.WebDriver
-import org.openqa.selenium.chrome.ChromeDriver
+import org.openqa.selenium.firefox.FirefoxDriver
 import org.scalatest.selenium.WebBrowser
 import org.scalatest.{Matchers, FlatSpec}
 
 class PageTitleSpec extends FlatSpec with Matchers with WebBrowser{
 
-  implicit val webDriver: WebDriver = new ChromeDriver
+  implicit val webDriver: WebDriver = new FirefoxDriver
 
   go to "http://www.gumtree.com"
 
