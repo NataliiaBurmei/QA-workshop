@@ -7,7 +7,7 @@ import org.scalatest.{FeatureSpec, GivenWhenThen, Matchers, FlatSpec}
 
 class SofaSearchSpec extends FeatureSpec with Matchers with WebBrowser with GivenWhenThen {
 
-    feature("Search sofa ad") {
+    feature("Search for sofa with urgent feature") {
 
 
         scenario("Verify I can find sofa ad") {
@@ -30,7 +30,7 @@ class SofaSearchSpec extends FeatureSpec with Matchers with WebBrowser with Give
         scenario("Verify I can filter urgent sofa ads") {
             implicit val webDriver: WebDriver = new FirefoxDriver()
 
-            Given("I am on SRP page")
+            Given("I have sofa ads on SRP")
             go to "https://www.gumtree.com/search?search_category=for-sale&q=sofa"
 
             When("I filter by Urgent ads")
@@ -39,7 +39,7 @@ class SofaSearchSpec extends FeatureSpec with Matchers with WebBrowser with Give
             click on urgentAd
             click on update
 
-            Then("I see only them")
+            Then("I see only urgent sofa ads")
             val urgentLabel = find(cssSelector("strong.label-urgent")).get
             urgentLabel.isDisplayed shouldEqual true
 
