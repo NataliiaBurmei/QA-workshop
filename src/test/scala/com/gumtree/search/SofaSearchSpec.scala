@@ -35,7 +35,7 @@ class SofaSearchSpec extends FeatureSpec with Matchers with WebBrowser with Give
 
             When("I filter by Urgent ads")
             val urgentAd = find(cssSelector("label[for='urgent_filter']")).get
-            val update = find(cssSelector("button[name=\"refine\"]")).get
+            val update = find(cssSelector("button[name='refine']")).get
             click on urgentAd
             click on update
 
